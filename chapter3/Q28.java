@@ -1,0 +1,19 @@
+package chapter3;
+
+public class Q28 {
+    public static void main(String[] args) {
+        //異なる型を同時に宣言すると、エラーになる
+        for(int i = 1, long j = 2; i <5; i++){
+            System.out.println(i*j);
+        }
+
+        //　これが正しい
+        // for(int i = 1, j = 2; i <5; i++){
+        //     System.out.println(i*j);
+        // }
+    }
+}
+
+
+// javac Q28.java
+// java chapter3/Q28
