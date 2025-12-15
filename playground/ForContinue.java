@@ -5,12 +5,15 @@ public class ForContinue {
         for(int i =0 ;i<3;i++){
             if(i==1){
                 continue;
+            }else{
+                System.out.println(i);
             }
-            System.out.println(i);
+            System.out.println("---");
+            
         }
     }
 }
 
 
-// javac ForContinue.java
+// javac playground/ForContinue.java
 // java playground/ForContinue

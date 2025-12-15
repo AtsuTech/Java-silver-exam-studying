@@ -1,6 +1,6 @@
 package chapter4;
 
-public class Q40 {
+public class Q40Other {
 
     public interface Test {
         //このvalueメソッドは、値を返さない
@@ -20,7 +20,3 @@ public class Q40 {
         System.out.println(data.value());
     }
 }
-
-
-// javac chapter4/Q40.java
-// java chapter4/Q40

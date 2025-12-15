@@ -20,9 +20,10 @@ public class Q20 {
 
     public static void main(String[] args) {
         A a = new B();
+        //B a = new B();
     }
 }
 
 
-// javac Q20.java
+// javac chapter5/Q20.java
 // java chapter5/Q20

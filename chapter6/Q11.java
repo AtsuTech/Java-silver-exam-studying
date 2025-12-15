@@ -14,7 +14,7 @@ public class Q11 {
 
 
     //チェック例外は、try-catchするかthrows句で宣言するかのどちらかが必要
-
+    //非チェック例外は、try-catchもthrows句で宣言も不要
     public void hello(String name) throws SampleException, TestException{
         if(name == null){
             throw new SampleException();

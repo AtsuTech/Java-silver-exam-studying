@@ -5,7 +5,8 @@ public abstract class Q1 {
         long a, b, c;
         a = 1;
         b = 10L;
-        System.out.println(a + "," + b + "," + c);
+        System.out.println(a + "," + b + "," + c); //変数初期化しないとエラー
+        //System.out.println(a + "," + b + "," );
     }
 }
 
