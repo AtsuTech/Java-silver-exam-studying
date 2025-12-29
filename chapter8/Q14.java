@@ -11,6 +11,7 @@ public class Q14 {
                     System.out.println(i);
                 }
             }catch(SampleException e){
+                //System.out.println("continue");
                 continue;
             }
         }
@@ -18,8 +19,9 @@ public class Q14 {
 
     private static boolean test(int num) throws SampleException{
         for(int i=2; i < num; i++){
-            System.out.println("num="+ num + "i=" + i);
+            System.out.println("num="+ num + ":" + "i=" + i);
             if(num % i == 0){
+                //System.out.println("num="+ num + ":" + "i=" + i);
                 throw new SampleException();
             }
             return true;
