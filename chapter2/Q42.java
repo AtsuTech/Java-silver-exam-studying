@@ -9,6 +9,7 @@ public class Q42 {
         list.add("A");
         list.add("B");
         list.add("C");
+        //list.add("X");もしCの次に要素があった場合例外checkForComodificationがスロー
         for(String str : list){
             if("B".equals(str)){
                 list.remove(str);
