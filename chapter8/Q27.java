@@ -14,16 +14,14 @@ public class Q27 {
 
 
         //確認
-        System.out.println(b1.value);
-        System.out.println(a1.value);
-        System.out.println(b2.value);
-        System.out.println(a2.value);
-
-
-        b1.print();
-        b2.print(20);
-        a1.print();
-        a2.print(10);
+        // System.out.println(b1.value);
+        // System.out.println(a1.value);
+        // System.out.println(b2.value);
+        // System.out.println(a2.value);
+        // b1.print();
+        // b2.print(20);
+        // a1.print();
+        // a2.print(10);
     }
 
 
@@ -62,3 +60,10 @@ public class Q27 {
 
 // javac chapter8/Q27.java
 // java chapter8/Q27
+
+
+
+
+//-----------------ポイント-----------------------
+// インスタンスを代入した変数で呼び出されているのは、引数なしのpitnt()関数
+//　Bには引数なしのpitnt()関数が存在しないので、Aの引数なしのpitnt()関数が呼び出されることになる

@@ -7,6 +7,7 @@ public class Q22 {
         while(num < 5){
             switch (num % 2) {
                 case 0: ++num;break;
+                //case 0: ++num; // breakがないと結果が変わる
                 case 1: num++;
             }
         }

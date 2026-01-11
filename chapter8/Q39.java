@@ -5,10 +5,10 @@ public class Q39 {
         int a = 10;
         float b = 10.0f;
         double c = 20;
-        a = b;
-        b = a;
-        c = b;
-        c = a;
+        a = b; //int←flot
+        b = a; //float←int
+        c = b; //double←float
+        c = a; //double←int
     }
 }
 

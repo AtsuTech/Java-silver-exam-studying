@@ -13,7 +13,7 @@ public class Q37 {
         var samples = new ArrayList<>();
         samples.add("Java");
         samples.add("PHP");
-        for(String s : samples){
+        for(var s : samples){
             System.out.println(s);
         }
     }
