@@ -5,6 +5,7 @@ public class ContineWhile {
         for(int i=1;i < 10;i++){
             if(i % 3 == 0){
                 continue;
+                //break;
             }
             System.out.println("iは" + i + "です");
         }

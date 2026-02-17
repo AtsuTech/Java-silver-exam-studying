@@ -29,5 +29,5 @@ public class Q12 {
     }
 }
 
-// javac Q12.java
+// javac chapter5/Q12.java
 // java chapter5/Q12

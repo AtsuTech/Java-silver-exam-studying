@@ -10,6 +10,7 @@ class Sample{
         //this.value = "hello" + value;
 
         //local_value = "hello" + value; //NG
+        //System.out.println(value); //もしもsetValueメソッドの値を表示したい場合はこれを書く
     }
     public String toString(){
         return value;

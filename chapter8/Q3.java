@@ -1,7 +1,9 @@
 package chapter8;
 
 public class Q3 {
+    //static private String contents; //staticにした場合はnullになる
     private String contents;
+
 
     public Q3(String contents){
         super();
