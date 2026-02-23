@@ -40,7 +40,7 @@ public class Q15 {
             System.out.println("H");
         }
 
-
+        System.out.println("-------------------------------------------");
 
         System.out.println("s="+ s);
         System.out.println("t="+ t);
@@ -48,7 +48,7 @@ public class Q15 {
         System.out.println("b="+ b);
 
 
-
+        System.out.println("-------------------------------------------");
 
         System.out.println("s="+ System.identityHashCode(s));
         System.out.println("t="+ System.identityHashCode(t));
