@@ -7,3 +7,6 @@ public class Q13 {
         System.out.println(str.substring(2,4));
     }
 }
+
+
+//javac chapter2/Q13.java

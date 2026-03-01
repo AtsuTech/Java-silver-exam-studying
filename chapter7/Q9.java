@@ -17,16 +17,33 @@ interface Sample {
     A execute(int num);
 }
 
-public class Q9 implements Sample {
+public class SubSample implements Sample {
 
-    public A execute(int num){
-        return new B(num);
+    // public A execute(int num){
+    //     return new B(num);
+    // }
+
+
+
+    //Objectを戻り値にしたらNGな理由
+    //オーバーライドするとき、戻り値は
+    //同じ型 か そのサブクラスのみ許可（共変戻り値）
+    public Object execute(int num){
+        return new A(num);
     }
 
     // public B execute(int num){
     //     return new A(num);
     // }
     
+}
+
+public class Q9 {
+    public static void main(String[] args) {
+        //new Q6("20").print();
+       SubSample s = new SubSample();
+        
+    }
 }
 
 
