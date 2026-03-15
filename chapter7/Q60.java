@@ -7,6 +7,9 @@ public class Q60 {
 
         for(String s: str){
             str[i].concat("e"+i);
+
+            //こう書け配列に値を入れることができる
+            //str[i]="e"+i;
             i++;
         }
 

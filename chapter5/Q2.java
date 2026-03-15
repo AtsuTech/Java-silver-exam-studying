@@ -2,17 +2,24 @@ package chapter5;
 
 //継承では、コンストラクタとprivateなフィールドやメソッドを引き継げない
 
-public class Q2 {
+class A{
+    A(String val){
 
-    static class A{
-        A(String val){
-
-        }
     }
+}
 
-    static public class B extends A{}
+public class B extends A{
+    
+}
+
+public class Q2 {
 
     public static void main(String[] args) {
         B b = new B("hello.");
     }
 }
+
+
+
+// javac chapter5/Q2.java
+// java chapter5/Q2
