@@ -18,6 +18,12 @@ public class ArrayBasic {
 
         int[][] array2 = new int[2][3];
         System.out.println(array2.length);
+        System.out.println(array2);
+
+
+        //cp2 Q27
+        int[] array3 = new int[0];
+        System.out.println(array3);
 
 
     }
