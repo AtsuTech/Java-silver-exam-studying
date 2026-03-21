@@ -26,5 +26,5 @@ public class TryCatchFinally {
 
 
 
-// javac TryCatchFinally.java
+// javac playground/TryCatchFinally.java
 // java playground/TryCatchFinally
