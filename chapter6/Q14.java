@@ -12,10 +12,11 @@ import java.util.List;
 public class Q14 {
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
+        //list.add(0,"hello"); //もし要素を追加したならaddメソッドで追加する
         list.get(0);
     }
 }
 
 
-// javac Q14.java
+// javac chapter6/Q14.java
 // java chapter6/Q14
