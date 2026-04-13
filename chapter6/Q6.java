@@ -10,8 +10,10 @@ public class Q6 {
         try{
             throw new RuntimeException();
         }catch(RuntimeException e){
+            //System.out.println("catch-retur以外の処理");
             return 0;
         }finally{
+            //System.out.println("finally-retur以外の処理");
             return 20;
         }
         
@@ -19,5 +21,5 @@ public class Q6 {
 }
 
 
-// javac Q6.java
+// javac chapter6/Q6.java
 // java chapter6/Q6
