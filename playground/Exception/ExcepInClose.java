@@ -29,7 +29,7 @@ class MyResource implements AutoCloseable {
     //AutoCloseableの抽象メソッドcloseをオーバーライド
     //close()はtryブロック終了後に自動で閉じられる
     public void close() throws Exception{
-         System.out.println("closeメソッド処理");
+         System.out.println(name+"closeメソッド処理");
          throw new Exception("closeの中のException");
     }
 }
