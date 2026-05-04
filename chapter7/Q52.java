@@ -21,6 +21,7 @@ public class Q52 {
         //コンパイルする際にここのコンストラクタ内部にsuper()が追加されるが,その際にsuper()には引数が無い。
         //スーパークラスで明示的に引数のあるコンストラクタが定義されているためコンパイルエラーとなる
         public SubSample(int price){
+            //super("java", 100); //
             this.price = price;
         }
 

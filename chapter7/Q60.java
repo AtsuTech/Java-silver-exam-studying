@@ -6,6 +6,7 @@ public class Q60 {
         int i = 0;
 
         for(String s: str){
+            //nullの変数に対してconncatメソッド使ってるから例外が発生する
             str[i].concat("e"+i);
 
             //こう書け配列に値を入れることができる
